@@ -8,7 +8,6 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 
 import java.util.List;
-import java.util.Scanner;
 
 
 public class Lox {
@@ -56,7 +55,6 @@ public class Lox {
     }
 
     private static void run (String source) {
-        // scanner purpose is to manipulate a string
         Scanner scanner = new Scanner(source);
 
         // separates string into tokens
